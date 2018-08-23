@@ -29,6 +29,7 @@ class Sessions extends Component {
   render() {
     return (
       <div className="Sessions">
+        <p className="App-intro">My registered sessions:</p>
         <div>{this.state.sessions}</div>
       </div>
     );

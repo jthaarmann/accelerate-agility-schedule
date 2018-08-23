@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Sessions from "./Sessions";
+import Register from "./Register";
 
 class App extends Component {
   render() {
@@ -11,8 +12,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">My Schedule</h1>
         </header>
-        <p className="App-intro">Below is my conference schedule:</p>
         <Sessions />
+        <Register />
       </div>
     );
   }
